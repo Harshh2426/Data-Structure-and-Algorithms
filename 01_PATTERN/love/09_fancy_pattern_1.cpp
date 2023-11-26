@@ -1,10 +1,10 @@
 /*
  n=5
 
- ****1****
- ***2*2***
- **3*3*3**
- *4*4*4*4*
+ ********1********
+ *******2*2*******
+ ******3*3*3******
+ *****4*4*4*4*****
 
 */
 
@@ -15,16 +15,23 @@ void helper(int n)
 {
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= i; j++)
+        for (int j = 1; j <= 9-i; j++)
         {
-            if (j == 1 or j == i or i == 1 or i == n)
-            {
-                cout << j;
+            cout<<"*";
+        }
+        int l=0;
+        for(int j=1;j<2*i;j++){
+            if(l%2==0){
+                cout<<i;
             }
-            else
-            {
-                cout << " ";
+            else{
+                cout<<"*";
             }
+            l++;
+        }
+        for (int j = 1; j <= 9-i; j++)
+        {
+            cout<<"*";
         }
         cout << endl;
     }
