@@ -1,6 +1,6 @@
 /*
 
- ek range main saare element sorted honge
+ Ek range main saare element sorted honge
     2,1,3,8,6,5,7,4
  => 2,1,3,8,6,5,7,4
     -
@@ -28,6 +28,11 @@
  SPACE COMPLEXITY =>
 
  O(1)
+
+ ^ Advantage
+ ^ => It is a known and established fact that insertion sort is the most optimal comparison-based sorting algorithm for small arrays.
+ ^ => It has a good locality of reference
+ ^ => It is an adaptive sorting algorithm, i.e- it outperforms all the other algorithms if the array elements are partially sorted.
 
 */
 
