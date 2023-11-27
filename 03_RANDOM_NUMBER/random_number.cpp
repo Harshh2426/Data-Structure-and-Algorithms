@@ -47,6 +47,5 @@ int main()
     {
         cout << (rand() % (max - min + 1)) + min << endl;
     }
-    // THE REPETITION IS SHOWN WHEN U AGAIN GOING TO EXECUTE IT
     return 0;
 }
