@@ -2,6 +2,9 @@
 
 ## GENERAL SYNTAX
 
+
+```C++
+
 int n=vect.size();
 int i=0,j=0;
 while(j<n){
@@ -11,5 +14,7 @@ while(j<n){
    }
    j++;
 }
+
+```
 
 
