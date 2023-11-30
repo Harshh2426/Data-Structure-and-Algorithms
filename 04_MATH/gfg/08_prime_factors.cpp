@@ -65,7 +65,7 @@ vector<int>primeFactors2(int n){
 
 int main()
 {
-    int n=20;
+    int n=1337;
     vector<int>ans1=primeFactors1(n);
     vector<int>ans2=primeFactors2(n);
     for(auto x:ans1){
