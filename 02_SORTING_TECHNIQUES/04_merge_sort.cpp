@@ -20,7 +20,7 @@
     3 2    4 1
     / \    / \
    3   2  4   1  
-   => yaha par smajna hai 3(index : 0) 
+   => yaha par smajna hai element 3(index : 0) 
    => low=0, high=0 basically iske aage nahi chalna chayiye 
    => lekin agar hum l<=r karenge to iske aage bhi chalega aur infinte chalega
 

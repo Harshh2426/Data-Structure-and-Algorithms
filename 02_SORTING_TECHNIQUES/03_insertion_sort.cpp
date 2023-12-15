@@ -32,7 +32,7 @@
  ^ Advantage
  ^ => It is a known and established fact that insertion sort is the most optimal comparison-based sorting algorithm for small arrays.
  ^ => It has a good locality of reference
- ^ => It is an adaptive sorting algorithm, i.e- it outperforms all the other algorithms if the array elements are partially sorted.
+ ^ => It is an adaptive sorting algorithm, i.e - it outperforms all the other algorithms if the array elements are partially sorted.
 
 */
 
