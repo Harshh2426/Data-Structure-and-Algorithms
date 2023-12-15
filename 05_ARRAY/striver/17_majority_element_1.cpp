@@ -45,7 +45,7 @@ int majorityElement(vector<int> &vect)
 */
 
     int n = vect.size();
-    int ans=-1,cnt=1;
+    int ans=-1,cnt=0;
     for(int i=0;i<n;i++){
         if(ans==vect[i]){
             cnt++;
@@ -53,7 +53,7 @@ int majorityElement(vector<int> &vect)
         else{
             cnt--;
         }
-        if(cnt==0){
+        if(cnt<=0){
             ans=vect[i];
             cnt=1;
         }
